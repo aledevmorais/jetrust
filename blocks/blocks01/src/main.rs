@@ -18,7 +18,8 @@ fn main() {
     
     println!("after internal Block os valores são esses: x{X}, y{y}, z{z}");
     
-    println!("resumindo os valores do bloco interno das variáveis podem ser alterados sem perderem o seu valor original")
+    println!("resumindo os valores do bloco interno das variáveis podem ser alterados sem perderem o seu valor original");
     //isso gera problemas pois poderemos manipular os valores das variáveis 
+    println!("Foi feito um sombreamento dos valores antigos das variables para um novo dentro do escopo mais interno");
 }
 

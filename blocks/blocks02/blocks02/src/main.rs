@@ -22,3 +22,10 @@ fn main()
     }
     println!("Valor de de x após destruição da atribuição no escopo interno será {x}");
 }
+//posso criar a mesma variavel dentro do bloco interno com valores diferentes do que foi atribuido no bloco externo
+//e logo em seguida usa-las no escopo interno em tempo de execução, logo após sair de escopo volta os valores originais.
+// alem de não ser recomendado pode criar "nulls" o rust não permite rodar mas a sacada de sair do escopo apagar ajuda a mitigar isso.
+//porem é bom entender disso pois a alocação de memoria pra outro valor pode gerar falhas de segurança.
+//o ideal seria não usar o shadowing ou criar uma expressão temporally para deixar claro
+//que o valor da variável é temporario.
+//tem como bloquear o shadowing através do Clippy mostrando warnings no uso de shadowing.

@@ -11,5 +11,8 @@ fn main()
     //olha o crash lógico: verdadeiro(t) e falso(f). Mesmo rust tendo segurança de compilação
     //ele identifica como válida a sentença pois não enxerga a lógica por trás dessa sentença
     //e NENHUMA OUTRA LINGUAGEM NO MUNDO ENXERGA ISSO
+    let z: bool = 12 > 13;
 
+    let c: char = 'z';
+    //o char em rust é UTF-8 ou seja não é necessariamente um bit só
 }

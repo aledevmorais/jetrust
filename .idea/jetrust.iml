@@ -8,12 +8,14 @@
       <sourceFolder url="file://$MODULE_DIR$/operator/oper02/op02/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/operator/oper03/op03/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/operator/oper04/op04/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/function/func01/fc01/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/blocks/blocks01/target" />
       <excludeFolder url="file://$MODULE_DIR$/blocks/blocks02/blocks02/target" />
       <excludeFolder url="file://$MODULE_DIR$/operator/oper01/op01/target" />
       <excludeFolder url="file://$MODULE_DIR$/operator/oper02/op02/target" />
       <excludeFolder url="file://$MODULE_DIR$/operator/oper03/op03/target" />
       <excludeFolder url="file://$MODULE_DIR$/operator/oper04/op04/target" />
+      <excludeFolder url="file://$MODULE_DIR$/function/func01/fc01/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
